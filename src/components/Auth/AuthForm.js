@@ -19,6 +19,7 @@ const AuthForm = () => {
     const enteredPassword = passwordInpuitRef.current.value;
 
     setIsLoading(true);
+
     if (isLogin) {
     } else {
       fetch(
